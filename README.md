@@ -9,4 +9,4 @@
   - Player can also choose to 'Hold', which will result in adding the current score to his/her total score.
 - The first player to reach the set winning points is the winner.
 
-#### Live Demo: https://mavenpcs.github.io/Pig/
+### Live Demo: https://mavenpcs.github.io/Pig/
