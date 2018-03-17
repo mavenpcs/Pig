@@ -94,8 +94,7 @@ function init() {
     winningScore = 100;
     scoreSetting === undefined ? winningScore = 100 : winningScore = scoreSetting;
     
-    document.querySelector('.winning-score').innerHTML = 'Winning Score: ' + winningScore;
-    alert('New Game starts! Winning Score: ' + winningScore);    
+    document.querySelector('.winning-score').innerHTML = 'Winning Score: ' + winningScore; 
     
     document.querySelector('.dice1').style.display = 'none';
     document.querySelector('.dice2').style.display = 'none';
