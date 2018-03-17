@@ -119,6 +119,43 @@ button {
     transition: background-color 0.3s, color 0.3s;
 }
 
+input {
+    position: absolute;
+    width: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border-style: solid;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.input-score { top: 520px;}
+
+h4 {
+    position: absolute;
+    width: 220px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;    
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.winning-score { top: 80px;}
+
 button:hover { font-weight: 600; }
 button:hover i { margin-right: 20px; }
 
@@ -141,10 +178,18 @@ i {
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
-.dice {
+.dice1 {
     position: absolute;
     left: 50%;
     top: 178px;
+    transform: translateX(-50%);
+    height: 100px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+}
+.dice2 {
+    position: absolute;
+    left: 50%;
+    top: 285px;
     transform: translateX(-50%);
     height: 100px;
     box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
