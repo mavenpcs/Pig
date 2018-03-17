@@ -8,3 +8,5 @@
   (i.e. Rolling two 6's in one turn is OK)
   - Player can also choose to 'Hold', which will result in adding the current score to his/her total score.
 - The first player to reach the set winning points is the winner.
+
+#### Live Demo: https://mavenpcs.github.io/Pig/
